@@ -1,7 +1,7 @@
-import { Loan } from './loan';
-import { LoanCalculator } from './loanCalculator';
-import { LoanSchedule } from './base/LoanSchedule';
-import { LoanType } from './base/LoanType';
+import { Loan } from './Loan';
+import { LoanCalculator } from './LoanCalculator';
+import { LoanSchedule } from './types/LoanSchedule';
+import { LoanType } from './types/LoanType';
 
 // Create a sample loan
 const principal = 10000;

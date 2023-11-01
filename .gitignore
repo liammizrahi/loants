@@ -1,1 +1,48 @@
-/node_modules/
+# Ignore node_modules directory
+node_modules
+
+# Ignore compiled JavaScript files
+dist
+
+# Ignore npm logs
+npm-debug.log*
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore .vscode directory (if using Visual Studio Code)
+.vscode
+
+# Ignore .idea directory (if using IntelliJ IDEA)
+.idea
+
+# Ignore project-specific config files (you may need to customize this)
+config.js
+
+# Ignore user-specific config files
+.env
+
+# Ignore built-in npm config files
+.npmrc
+
+# Ignore TypeScript configuration output
+tsconfig.tsbuildinfo
+
+# Ignore test output
+test-output
+
+# Ignore package-lock.json file (if using npm 5+)
+package-lock.json
+
+# Ignore environment-specific config files
+.env.local
+.env.development
+.env.test
+.env.production
+.env.local
+
+# Ignore yarn.lock (if using Yarn)
+yarn.lock
+
+# Ignore coverage reports
+coverage
